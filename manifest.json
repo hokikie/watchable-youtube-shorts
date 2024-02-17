@@ -1,15 +1,23 @@
 {
   "manifest_version": 3,
   "name": "Watchable Youtube Shorts",
-  "description": "This extension allows you to watch youtube shorts in a more watchable format",
+  "description": "Makes YouTube Shorts more comfortable and enjoyable.",
   "version": "1.0",
   "icons": {
-    "16": "assets/icon/icon.png",
-    "48": "assets/icon/icon.png",
-    "128": "assets/icon/icon.png"
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "assets/icon/icon.png"
-  }
+    "default_icon": "icons/icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/shorts/*"],
+      "js": ["content-script.js"],
+      "css": ["css/shorts.css"]
+    }
+  ],
+  "permissions": ["storage"]
 }

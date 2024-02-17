@@ -1,0 +1,23 @@
+.overflow-visible {
+  overflow: visible !important;
+  background-image: none !important;
+}
+
+.content-hidden {
+  visibility: hidden !important;
+}
+.content-aside {
+  /* Use the calculated width for the width */
+  width: var(--overlay-width);
+  /* Adjust the margin-left based on the width */
+  margin-left: calc(var(--overlay-width) * -1);
+  transition: margin-left 0.3s ease;
+  will-change: margin-left;
+}
+.content-color {
+  color: #0f0f0f !important;
+}
+.content-subscribe-button {
+  color: #0f0f0f !important;
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}

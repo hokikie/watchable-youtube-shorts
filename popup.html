@@ -6,13 +6,26 @@
     <script src="popup.js"></script>
   </head>
   <body>
-    <div class="header">
+    <header class="header">
+      <img src="icons/icon.png" width="32px" height="32px" />
       <h1>Watchable Youtube Shorts</h1>
-      <img src="assets/icon/icon.png" width="32px" height="32px" />
-    </div>
-    <div class="checkbox">
-      <input type="checkbox" id="enableWYS" />
-      <label for="enableWYS">Hide Shorts Overlay Content</label>
-    </div>
+    </header>
+    <div class="divider"></div>
+    <ul>
+      <li class="option">
+        <label class="toggle-switch" for="hideOverlay">
+          <input type="checkbox" id="hideOverlay" />
+          <span class="slider" />
+        </label>
+        <p>Hide shorts overlay</p>
+      </li>
+      <li class="option">
+        <label class="toggle-switch" for="asideOverlay">
+          <input type="checkbox" id="asideOverlay" />
+          <span class="slider" />
+        </label>
+        <p>Set shorts overlay content aside</p>
+      </li>
+    </ul>
   </body>
 </html>

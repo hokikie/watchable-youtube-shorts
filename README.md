@@ -5,7 +5,7 @@
   Watchable YouTube Shorts
 </h1>
 <p align="center">
-  Makes Naver blogs more readable and less distractive.
+  Makes YouTube Shorts more comfortable and enjoyable.
 </p>
 
 ## Overview

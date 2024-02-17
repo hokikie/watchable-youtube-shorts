@@ -18,5 +18,10 @@
 | --------- | -------- |
 | ![before] | ![after] |
 
+## Installation
+
+- [Download via GitHub]
+
 [before]: https://github.com/hokikie/watchable-youtube-shorts/assets/96006602/453f0a47-a3b5-45b5-9459-cdb4d835445a
 [after]: https://github.com/hokikie/watchable-youtube-shorts/assets/96006602/70835626-eca4-421e-839f-128a9e5171bd
+[Download via GitHub]: https://github.com/hokikie/watchable-youtube-shorts/archive/refs/tags/v1.0.0.zip
